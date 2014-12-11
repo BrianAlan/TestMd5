@@ -126,4 +126,8 @@ public class TestMd5Activity extends Activity {
 		String s = new String(a);
 		return s;
 	}
+	
+	public static void  getName(){
+	    
+	}
 }
