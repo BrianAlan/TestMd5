@@ -130,6 +130,6 @@ public class TestMd5Activity extends Activity {
 	}
 	
 	public static String  getName(){
-	    return "zkq   ";
+	    return "zkq   "; 
 	}
 }
