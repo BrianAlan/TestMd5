@@ -124,10 +124,12 @@ public class TestMd5Activity extends Activity {
 			a[i] = (char) (a[i] ^ 'l');
 		}
 		String s = new String(a);
+		
+		
 		return s;
 	}
 	
 	public static String  getName(){
-	    return "zkq";
+	    return "zkq   ";
 	}
 }
