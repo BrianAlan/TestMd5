@@ -33,9 +33,9 @@ public class TestMd5Activity extends Activity {
 				SharedPreferences pre = getSharedPreferences("loginvalue",
 						MODE_WORLD_WRITEABLE);
 				pass = MD5(password.getText().toString());
-				String  testpss=encryptmd5(pass);
-				
-				System.out.println("testpass:"+testpss);
+				String testpss = encryptmd5(pass);
+
+				System.out.println("testpass:" + testpss);
 				user = username.getText().toString();
 				if (!pass.equals("") && !user.equals("")) {
 					pre.edit()
